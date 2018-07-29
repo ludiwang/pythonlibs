@@ -1,4 +1,4 @@
-class Menu:
+class Menu(object):
     def __init__(self, menu_entry: list):
         self._menu_list = []
         self._menu_list.append(menu_entry)
